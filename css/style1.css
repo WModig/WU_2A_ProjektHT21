@@ -5,7 +5,7 @@
     font-family: 'Roboto', 'sans-serif';
 }
 
-#wrapper{
+#starttop{
     background-image:url(../img/photo-1543007631-283050bb3e8c.jfif);
     height: 100vh;
     background-size: 100%;
@@ -14,7 +14,7 @@
 
 
 #inforutor{
-    display: grid; 
+    display: grid;
     grid-template-columns: minmax(600px, 1fr);
     grid-template-rows: 1fr, 1fr, 150px;
     grid-template-areas: 
@@ -54,7 +54,7 @@
 .storlek{
     height: 80%;
     width: 90%;
-    background-color: blue;
+    margin: 2rem;
 }
 
 #ig_link{
@@ -63,8 +63,7 @@
 }
 
 #name{
-
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 40px;
     color: aliceblue;
 }
@@ -75,7 +74,7 @@
 }
 
 #head{
-background: hsla(217, 63%, 13%, 0.4);
+background: hsla(218, 25%, 43%, 0.4);
 height: 100px;
 display: flex;
 align-items: center;
@@ -89,16 +88,23 @@ display: grid;
 
 #link_list{
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
-width: 250px;
+width: 300px;
+list-style: none;
+padding: 10px;
 }
+
 
 .meny_länk{
 text-decoration: none;
 color: silver;
 font-size: 1.3rem;
 font-weight: 100px;
+}
+
+.meny_länk:hover{
+    font-weight: bold;
 }
 #normalSushi{
     height: auto;
@@ -130,6 +136,7 @@ font-weight: 100px;
 }
 
 #foot{
+    grid-area: fo;
     background: slateblue;
     font-size: 2rem;
     color: white;
@@ -139,5 +146,83 @@ font-weight: 100px;
     align-items: center;
     
 }
+
+#h1meny{
+    margin: 8rem;
+    font-family: 'Cormorant Garamond';
+    font-size: 4rem;
+    color: whitesmoke;
+
+}
+
+#menytop{
+    color: red;
+    background-image:url(../img/sushi-2455981_960_720.jpg);
+    height: 70vh;
+    background-size: 100%;
+}
+
+#menulistwrap{
+    height: 80vh;
+    background-color: darkslategray;
+    color: whitesmoke;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, 110px), 1fr, 10px;
+    display: grid;
+    grid-template-areas: 
+    "te"
+    "li"
+    "fo"
+    ;
+}
+
+#intromenu{
+    grid-area: te;
+    display: grid;
+    font-size: 1.25rem;
+    margin: 5rem;
+    
+}
+
+#menulist{  
+    grid-area: li;
+    display: grid;
+}
+
+.list{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkslateblue;
+    font-size: 1.5rem;
+    list-style: disc;
+}
+
+#haram{
+    grid-area: fo;
+    display: grid;
+}
+
+#kontakttop{
+    background-image:url(../img/pexels-photo-4551154.jpeg);
+    background-size: 100%;
+    
+    height: 90vh;
+}
+
+#kontaktsida{
+    margin: 3.5rem;
+    padding: 1rem;
+    color:  ivory;
+    font-style: oblique;
+    font-size: 2rem;
+    background: hsla(0, 0%, 0%, 0.4)
+    
+}
+
+#button{
+    size: 1rem;
+}
+
 
 
