@@ -6,7 +6,7 @@
 }
 
 #starttop{
-    background-image:url(../img/photo-1543007631-283050bb3e8c.jfif);
+    background-image:url(../img/photo-1428515613728-6b4607e44363.jpg);
     height: 100vh;
     background-size: 100%;
 
@@ -148,10 +148,11 @@ font-weight: 100px;
 }
 
 #h1meny{
-    margin: 8rem;
+    margin: 12rem;
     font-family: 'Cormorant Garamond';
     font-size: 4rem;
     color: whitesmoke;
+    font-weight: 200;
 
 }
 
@@ -167,12 +168,11 @@ font-weight: 100px;
     background-color: darkslategray;
     color: whitesmoke;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(100px, 110px), 1fr, 10px;
+    grid-template-rows: minmax(100px, 110px), 1fr;
     display: grid;
     grid-template-areas: 
     "te"
     "li"
-    "fo"
     ;
 }
 
@@ -187,20 +187,18 @@ font-weight: 100px;
 #menulist{  
     grid-area: li;
     display: grid;
+    background-image:url(../img/salmontexture.png);
+    background-size: 100%;
 }
 
 .list{ 
     display: flex;
     justify-content: center;
     align-items: center;
-    background: darkslateblue;
-    font-size: 1.5rem;
+    background: rgba(85, 107, 47, 0.082);
+    font-size: 2.5rem;
     list-style: disc;
-}
-
-#haram{
-    grid-area: fo;
-    display: grid;
+    padding: 2rem;
 }
 
 #kontakttop{
@@ -224,6 +222,11 @@ font-weight: 100px;
     size: 1rem;
 }
 
-
-
-    
+#nigiribox{
+    display: flex;
+    justify-content: space-evenly;;
+}
+#nigiriimg{
+    height: 100px;
+    width:auto;
+}
