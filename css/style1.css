@@ -96,12 +96,12 @@ body{
 }
 
 #link_list{
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 18.75rem;
-list-style: none;
-padding: 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18.75rem;
+    list-style: none;
+    padding: 0.625rem;
 }
 
 
